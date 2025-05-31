@@ -18,6 +18,8 @@
         <div class="min-h-screen bg-gray-100 dark:bg-gray-900">
             @include('layouts.navigation')
 
+            
+
             <!-- Page Heading -->
             @isset($header)
                 <header class="bg-white dark:bg-gray-800 shadow">
@@ -28,9 +30,13 @@
             @endisset
 
             <!-- Page Content -->
-            <main>
-                {{ $slot }}
-            </main>
+            <div class="flex h-[1000px] overflow-y-auto">
+
+                @include('layouts.sidebar')
+                <main class="w-screen">
+                    {{ $slot }}
+                </main>
+            </div>
         </div>
     </body>
 </html>
