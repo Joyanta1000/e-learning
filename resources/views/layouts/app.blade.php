@@ -30,7 +30,7 @@
             @endisset
 
             <!-- Page Content -->
-            <div class="flex h-[1000px] overflow-y-auto">
+            <div class="flex h-[100vh]  overflow-y-auto">
 
                 @include('layouts.sidebar')
                 <main class="w-screen">

@@ -1,4 +1,4 @@
-<aside class="w-[20%] h-full" >
+<aside class="w-[300px] h-full hidden sm:block" >
     <nav class="relative z-10 h-full" aria-label="Sidebar">
         <div class="overflow-y-auto py-4 px-3 bg-gray-50 dark:bg-gray-800 h-full">
             <ul class="space-y-2">
